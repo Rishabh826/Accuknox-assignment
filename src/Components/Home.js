@@ -1,5 +1,4 @@
 import React from "react";
-
 const Home = () => {
   return (
 
@@ -8,7 +7,7 @@ const Home = () => {
           <div className="container mx-auto flex justify-between items-center">
             <div className="text-2xl font-bold">
               <a href="/" className="hover:text-gray-400">
-                Accuknox
+               Rishabh-Accuknox
               </a>
             </div>
             <ul className="flex space-x-6">
@@ -23,7 +22,7 @@ const Home = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-gray-400">
+                <a href="/About" className="hover:text-gray-400">
                   About
                 </a>
               </li>

@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import WidgetContext from "./context/WidgetContext";
 import dashboardData from "./dashboardData.json";
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
     path: "/dashboard",
     element: <Dashboard />,
   },
+ 
 ]);
 function App() {
   const [isDrawerActive, setIsDrawerActive] = useState(false);
