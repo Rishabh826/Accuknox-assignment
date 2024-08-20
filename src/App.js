@@ -1,7 +1,7 @@
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Dashboard from "./components/Dashboard";
-import Home from "./components/Home";
+import Dashboard from "./Components/Dashboard";
+import Home from "./Components/Home";
 import { useEffect, useState } from "react";
 import WidgetContext from "./context/WidgetContext";
 import dashboardData from "./dashboardData.json";

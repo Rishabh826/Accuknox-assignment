@@ -46,7 +46,7 @@ const Widget = ({ widget, categoryId }) => {
   };
 
   return (
-    <div className="bg-white p-3 rounded-2xl h-60">
+    <div className="bg-black p-3 rounded-2xl h-60">
       <div className="flex justify-between">
         <h3 className=" font-bold text-sm">{widget.title}</h3>
         <button
