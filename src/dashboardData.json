@@ -1,0 +1,107 @@
+{
+    "categories": [
+      {
+        "id": "cspm",
+        "name": "CSPM",
+        "title": "CSPM Executive Dashboard",
+        "widgets": [
+          {
+            "type": "doughnut",
+            "id": "cloud_accounts",
+            "title": "Cloud Accounts",
+            "data": [
+              {
+                "status": "Connected",
+                "count": "2"
+              },
+              {
+                "status": "Not connected",
+                "count": "2"
+              }
+            ],
+            "backgroundColor": [
+              "#cfd7fa",
+              "#7f94f0"
+            ]
+          },
+          {
+            "type": "doughnut",
+            "id": "cloud_account_risk_assessment",
+            "title": "Cloud Account Risk Assessment",
+            "data": [
+              {
+                "status": "Failed",
+                "count": "1689"
+              },
+              {
+                "status": "Warning",
+                "count": "681"
+              },
+              {
+                "status": "Not available",
+                "count": "36"
+              },
+              {
+                "status": "Passed",
+                "count": "7253"
+              }
+            ],
+            "backgroundColor": [
+              "#ab0c03",
+              "#ebc450",
+              "#c2bfb8",
+              "#388545"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cwpp",
+        "name": "CWPP",
+        "title": "CWPP Dashboard",
+        "widgets": [
+          {
+            "id": "top_5_namespace_alert",
+            "title": "Top 5 Namespace Specific Alerts",
+            "data": []
+          },
+          {
+            "id": "workload_alerts",
+            "title": "Workload Alerts",
+            "data": []
+          }
+        ]
+      },
+      {
+        "id": "images",
+        "name": "Images",
+        "title": "Registry Scan",
+        "widgets": [
+          {
+            "type": "stackedChart",
+            "id": "image_risk_assessment",
+            "title": "Image Risk Assessment cloud",
+            "data": [
+              {
+                "status": "Critical",
+                "count": "9"
+              },
+              {
+                "status": "High",
+                "count": "150"
+              },
+              {
+                "status": "Low",
+                "count": "300"
+              }
+            ],
+            "backgroundColor": [
+              "#870907",
+              "#f5813d",
+              "#f29e16"
+            ]
+          }
+        ]
+      }
+    ]
+  }
