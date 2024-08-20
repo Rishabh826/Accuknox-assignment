@@ -1,7 +1,7 @@
 import Headers from "./Headers";
 import Category from "./Category";
 import { useContext } from "react";
-import WidgetContext from "../context/WidgetContext";
+import WidgetContext from "../Context/WidgetContext";
 const Content = () => {
   const { fetchedData } = useContext(WidgetContext);
   return (

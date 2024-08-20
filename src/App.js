@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Dashboard from "./Components/Dashboard";
 import Home from "./Components/Home";
 import { useEffect, useState } from "react";
-import WidgetContext from "./context/WidgetContext";
+import WidgetContext from "./Context/WidgetContext";
 import dashboardData from "./dashboardData.json";
 
 

@@ -1,5 +1,5 @@
 import Widget from "./Widget";
-import WidgetContext from "../context/WidgetContext";
+import WidgetContext from "../Context/WidgetContext";
 import { useContext } from "react";
 import EmptyWidget from "./EmptyWidget";
 

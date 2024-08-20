@@ -1,7 +1,7 @@
 import Tabs from "./Tabs";
-import WidgetContext from "../context/WidgetContext";
+import WidgetContext from "../Context/WidgetContext";
 import { useContext, useEffect } from "react";
-import TabContext from "../context/TabContext";
+import TabContext from "../Context/TabContext";
 
 const Drawer = () => {
   const {

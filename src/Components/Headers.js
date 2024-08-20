@@ -2,7 +2,7 @@ import { FiRefreshCcw } from "react-icons/fi";
 import { BsThreeDotsVertical } from "react-icons/bs";
 import { BsFillClockFill } from "react-icons/bs";
 import { useContext } from "react";
-import WidgetContext from "../context/WidgetContext";
+import WidgetContext from "../Context/WidgetContext";
 
 const Headers = () => {
   const { setIsDrawerActive, setActiveTab } = useContext(WidgetContext);

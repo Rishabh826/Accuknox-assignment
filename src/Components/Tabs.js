@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import WidgetContext from "../context/WidgetContext";
+import WidgetContext from "../Context/WidgetContext";
 
 const Tabs = () => {
   const {

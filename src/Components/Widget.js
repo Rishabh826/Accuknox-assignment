@@ -2,7 +2,7 @@ import DoughnutChart from "./DoughnutChart";
 import StackedChart from "./StackedChart";
 import { VscGraph } from "react-icons/vsc";
 import { useContext } from "react";
-import WidgetContext from "../context/WidgetContext";
+import WidgetContext from "../Context/WidgetContext";
 
 const Widget = ({ widget, categoryId }) => {
   const { setActiveWidgets } = useContext(WidgetContext);
