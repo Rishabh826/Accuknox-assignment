@@ -109,8 +109,8 @@ This project is licensed under the MIT License. You are free to use, modify, and
 
 For any questions or issues, please contact:
 
-- **Your Name** - [your-email@example.com](mailto:work.rishabh82@gmail.com)
-- **GitHub** - [your-username](https://github.com/Rishabh826)
+- **Your Name** - [your-work.rishabh82@gmail.com](mailto:work.rishabh82@gmail.com)
+- **GitHub** - [your-Rishabh826](https://github.com/Rishabh826)
 
 ---
 
